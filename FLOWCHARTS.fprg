@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-22 02:57:17 PM"/>
+        <attribute name="created" value="bGVub3ZvO0RFU0tUT1AtQkYxSkpWNzsyMDI0LTA4LTIyOzAyOjEwOjQxIFBNOzI5ODg="/>
+        <attribute name="edited" value="bGVub3ZvO0RFU0tUT1AtQkYxSkpWNzsyMDI0LTA4LTIyOzAyOjU3OjE3IFBNOzY7MzExNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="Force, Mass"/>
+            <assign variable="acc" expression="force/mass"/>
+            <output expression="Print acc" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
