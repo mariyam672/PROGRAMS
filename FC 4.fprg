@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-08-24 06:19:41 PM"/>
+        <attribute name="created" value="bGVub3ZvO0RFU0tUT1AtQkYxSkpWNzsyMDI0LTA4LTI0OzA2OjA3OjA4IFBNOzMwMDM="/>
+        <attribute name="edited" value="bGVub3ZvO0RFU0tUT1AtQkYxSkpWNzsyMDI0LTA4LTI0OzA2OjE5OjQxIFBNOzE7MzExMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="marks"/>
+            <if expression="marks&gt;80">
+                <then>
+                    <assign variable="grade" expression="&quot;A&quot;"/>
+                </then>
+                <else>
+                    <if expression="marks&gt;70">
+                        <then>
+                            <assign variable="grade" expression="&quot;B&quot;"/>
+                        </then>
+                        <else>
+                            <if expression="marks &gt; 60">
+                                <then>
+                                    <assign variable="grade" expression="&quot;C&quot;"/>
+                                </then>
+                                <else>
+                                    <if expression="marks &gt; 40">
+                                        <then>
+                                            <assign variable="grade" expression="&quot;D&quot;"/>
+                                        </then>
+                                        <else>
+                                            <assign variable="grade" expression="&quot;F&quot;"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="grade" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
